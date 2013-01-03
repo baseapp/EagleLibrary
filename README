@@ -1,68 +1,103 @@
 Device                         Package                                  
                                                                               
-1X01                           PAD_SMD                            
-1X01-1"                        PAD_1                              
-1X01-LARGE                     PAD_0.7                            
-4R-N                           0603-ARC                           
-44TQFPTQFP                     44TQFP                             
-ARIA                           ARIA_PAD                           
-AUDIO-JACKPTH                  PTH                                
-AUDIO-JACK2PTH                                 
-BAT30C                         BAT30                              
-BAT30S                         BAT30                              
-BATTERY_HOLDER VBAT            BATTERY_HOLDTERY                   
-CPCI-3U                        CPCI-3U                            
-CPOL_B                         CPOL_B                             
-CPOL_D                         CPOL_D                             
-CRYSTAL2PIN                    CRYSTAL-2PIN                       
-CRYSTAL4PIN                    CRYSTAL-4PIN                       
-DCBARRELPTH                    DCJACK_2MM_PTH                     
-DCBARRELSMT                    DCJACK_2MM_SMT                     
-DDRAM                          66TSSOP                            
-DF9-HEADER                     DF9-41PIN                          
-DF9-RECEPTACLE                 DF9-41PI                           
-DF40-HEADER                    40DF_HEADER                        
-DF40-RECEPTOR                  40DF_RECEPT                        
-DIODESMA                       SMADIODE                           
-DIODESOD-123                   SOD-123                            
-DIODESOD-323                   SOD-323                            
-DIODESOT23_REFLOW              SOT23-R                            
-DIODESOT23_WAVE                SOT23-W                            
-DM9000                         100LQFP                            
-EMI_SHIELD_1                   SHIELD_50X50                       
-FERRITE-BEAD0603               0603                               
-FT232HL                        48LQFP                             
-HD44780LCD-1602                LCD1602                            
-IMX-23                         128TQFP                            
-JUMPER                         SJW                                
-LIGHTPIPE_LED                  BOARDMOUNT_PIPE_&_0603LED          
-LM2576                         TO-263-6(5LEADS+1TAB)              
-LOCUX-VIET                     LOCUXBOARD                         
-MAGJACK                        MAGJACK                            
-MAGJACK_2                      MAGJACK                            
-MCP73831                       5PIN_SOT23                         
-MIC2026                        SOP-8                              
-MICRO-SD-HINGE-CONNECTOR       MICRO-SD-HINGE-CONNECTOR           
-OLED                           OLED_SMD                           
-PIC10F222                      6PIN_SOT23                         
-REG1117                        SOT223                             
-RESISTOR_0603 R                R0603                              
-SAM3U"                         100LQFP                            
-SCHOTTKY-DIODESMA              SMADIODE                           
-SCHOTTKY-DIODESMA2             SCHOTTKY_SMA                       
-SODIMM_BOARD                   SODIMM_BOARD                       
-SODIMM_BOARDSMALL              SODIMM_BOARD_SMALLER               
-SPDT_MOMENTARY                 SPDT_THROUGH-HOLE                  
-SRAM-R1LV0808ASB-5SI           44TSOP                             
-STM32F407                      100LQFP                            
-SWITCH_MOMENTARY               SWITCH_SMD                         
-TFR_HEADER                     TFR_HEADER                         
-TRANSISTOR_NPN Q               SOT223                             
-TRANSISTOR_NPN                 SOT23-R                            
-TRANSISTOR_NPN                 SOT23-W                            
-TRANSISTOR_PNP                 SOT23-R                            
-USB-A-H    USB                 USB-A-H                            
-USB-A-S    USB                 USB-A-S                            
-USB-B-H    USB                 USB-B-H                            
-USB3320    USB3320             32QFN                              
-ZENER-DIODE-SOT23              SOT23-R                            
+1X01                           PAD_SMD                                             
+1X01-1"                        PAD_1                                               
+1X01-LARGE                     PAD_0.7                                             
+1X01SQUARE                     PAD_SQUARE_LARGE                                    
+3MM_TRIMPOT                    3MM_TRIMPOT                                        
+4R-N                           0603-ARC                                            
+44TQFPTQFP                     44TQFP                                              
+69X8MM-WHEEL                   69X8MM-WHEEL                                    
+74HC245                        SO20W                                              
+74LVC2G14.                     6TSOP                                              
+ARIA                           ARIA_PAD                                          
+AUDIO-JACKPTH U                                                  
+AUDIO-JACK2PTH                                                   
+BAT30C                         BAT30                                        
+BAT30S                         BAT30                                      
+BATTERY_HOLDER VBAT            BATTERY_HOLDER                        
+BATTERY_HOLDERAA VBAT          AA_BATTERY_HOLDER                   
+BOOST_REGULATOR                MSOP-8L-EDP                           
+BRIDGE-RECTIFIER               TO-269AA                                    
+CAPACITOR                      C0603                                               
+CASTOR                         CASTOR-16.66MM                                      
+CPCI-3U                        CPCI-3U                                             
+CPOL_B                         CPOL_B                                              
+CPOL_D                         CPOL_D                                              
+CRYSTAL2PIN                    CRYSTAL-2PIN                                     
+CRYSTAL4PIN                    CRYSTAL-4PIN                                     
+DCBARRELPTH                    DCJACK_2MM_PTH                            
+DCBARRELSMT                    DCJACK_2MM_SMT                            
+DDRAM-66PIN                    66TSSOP                                       
+DF9-HEADER                     DF9-41PIN                                           
+DF9-RECEPTACLE                 DF9-41PIN                                      
+DF40-HEADER                    40DF_HEADER                                      
+DF40-RECEPTOR                  40DF_RECEPTOR                                   
+DIODESMA                       SMADIODE                                             
+DIODESOD-123                   SOD-123                                          
+DIODESOD-323                   SOD-323                                           
+DIODESOT23_REFLOW              SOT23-R                                      
+DIODESOT23_WAVE                SOT23-W                                      
+DM9000                         100LQFP                                     
+DPDT                           DPDT                                       
+DUAL_SHAFT_PLASTIC_GEAR_MOTOR_ST1_LEFT LEFT                      
+DUAL_SHAFT_PLASTIC_GEAR_MOTOR_ST1_RIGHT RIGHT                    
+EMI_SHIELD                     SHIELD_50X50                               
+FERRITE-BEAD                   R0603                                      
+FT232HL                        48LQFP                                            
+GP1S092HCPIF                   GP1S092HCPIF                              
+HD44780LCD-1602                LCD1602                               
+IMX-23                         128TQFP                                            
+JUMPER                         SJW                                                
+L293-D                         SOIC-20                                            
+LCD                            LCD-8X2                                            
+LIGHTPIPE_WITH_LED LIGHTPIPE                                     
+LM2576                         TO-263-6(5LEADS+1TAB) 1*                           
+LM2623                         MSOP-8L-EDP                                        
+LOCUX-VIET                     LOCUXBOARD                                         
+M-2X10                         MOLEX-2X10                                         
+MAGJACK                        MAGJACK                                            
+MAGJACK_2                      MAGJACK                                            
+MCP73831                       5PIN_SOT23                                         
+MIC2026                        SOP-8                                              
+MICRO-SD-HINGE-CONNECTOR       MICRO-SD-                            
+MOUNT_HOLES                    HOLES-1.6MM                               
+NCP1529                        TSOP-5                                             
+OLED                           OLED_SMD                                           
+PIC10F222                      6PIN_SOT23                                         
+PIC16F720/721                  SOIC-20                                 
+PIC18F25K50                    SOIC-28                                      
+PIC32MX1XX/2XX--"              44TQFP                                       
+PPTC                           PPTC1812                                           
+REG1117                        SOT223                                             
+RESISTOR                       R0603                                              
+RF-SMA                         BU-SMA-H                                           
+SAM3U"                         100LQFP                                            
+SCHOTTKY-DIODESMA              SMADIODE                                    
+SCHOTTKY-DIODESMA2             SCHOTTKY_SMA                               
+SIM-HOLDER-TRAY                SIM-HOLDER                              
+SIM900                         SIM900                                      
+SN74HC164                      14TSSOP                             
+SN74HC164'                     SOIC-14                               
+SODIMM_BOARD SODIMM            SODIMM_BOARD                             
+SODIMM_BOARDSMALL              SODIMM_BOARD_SMAL                         
+SOL-PAD-OPEN                   SOL-PAD-OPEN                                 
+SPDT_MOMENTARY SPDT            SPDT_THROUGH-HOLE                      
+SRAM                           44TSOP                                            
+STM32F407                      100LQFP                                           
+SUPPLY                                                           
+SWITCH_MOMENTARY               SWITCH_SMD                                   
+TACTILE                                                          
+TB6552FN                       16PIN_SSOP                                        
+TERMINAL_CONNECTOR-2PIN                                          
+TFR_HEADER                     TFR_HEADER                                  
+TRANSISTOR_NPN Q                                                 
+TRANSISTOR_NPN-SOT23-R         SOT23-R                                 
+TRANSISTOR_NPN-SOT23-W         SOT23-W                                 
+TRANSISTOR_PNP-SOT23-R         SOT23-R                                 
+USB-A-H                        USB-A-H                                            
+USB-A-S                        USB-A-S                                            
+USB-B-H                        USB-B-H                                            
+USB3320                        32QFN                                             
+VBAT                                                             
+ZENER-DIODE-SOT23              SOT23-R                              
