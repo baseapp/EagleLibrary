@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -22513,158 +22513,156 @@
 <pin name="48" x="-30.48" y="-58.42" length="middle"/>
 <pin name="49" x="-30.48" y="-60.96" length="middle"/>
 <pin name="50" x="-30.48" y="-63.5" length="middle"/>
-<pin name="51" x="0" y="60.96" length="middle"/>
-<pin name="52" x="0" y="58.42" length="middle"/>
-<pin name="53" x="0" y="55.88" length="middle"/>
-<pin name="54" x="0" y="53.34" length="middle"/>
-<pin name="55" x="0" y="50.8" length="middle"/>
-<pin name="56" x="0" y="48.26" length="middle"/>
-<pin name="57" x="0" y="45.72" length="middle"/>
-<pin name="58" x="0" y="43.18" length="middle"/>
-<pin name="59" x="0" y="40.64" length="middle"/>
-<pin name="60" x="0" y="38.1" length="middle"/>
-<pin name="61" x="0" y="35.56" length="middle"/>
-<pin name="62" x="0" y="33.02" length="middle"/>
-<pin name="63" x="0" y="30.48" length="middle"/>
-<pin name="64" x="0" y="27.94" length="middle"/>
-<pin name="65" x="0" y="25.4" length="middle"/>
-<pin name="66" x="0" y="22.86" length="middle"/>
-<pin name="67" x="0" y="20.32" length="middle"/>
-<pin name="68" x="0" y="17.78" length="middle"/>
-<pin name="69" x="0" y="15.24" length="middle"/>
-<pin name="70" x="0" y="12.7" length="middle"/>
-<pin name="71" x="0" y="10.16" length="middle"/>
-<pin name="72" x="0" y="7.62" length="middle"/>
-<pin name="73" x="0" y="5.08" length="middle"/>
-<pin name="74" x="0" y="2.54" length="middle"/>
-<pin name="75" x="0" y="0" length="middle"/>
-<pin name="76" x="0" y="-2.54" length="middle"/>
-<pin name="77" x="0" y="-5.08" length="middle"/>
-<pin name="78" x="0" y="-7.62" length="middle"/>
-<pin name="79" x="0" y="-10.16" length="middle"/>
-<pin name="80" x="0" y="-12.7" length="middle"/>
-<pin name="81" x="0" y="-15.24" length="middle"/>
-<pin name="82" x="0" y="-17.78" length="middle"/>
-<pin name="83" x="0" y="-20.32" length="middle"/>
-<pin name="84" x="0" y="-22.86" length="middle"/>
-<pin name="85" x="0" y="-25.4" length="middle"/>
-<pin name="86" x="0" y="-27.94" length="middle"/>
-<pin name="87" x="0" y="-30.48" length="middle"/>
-<pin name="88" x="0" y="-33.02" length="middle"/>
-<pin name="89" x="0" y="-35.56" length="middle"/>
-<pin name="90" x="0" y="-38.1" length="middle"/>
-<pin name="91" x="0" y="-40.64" length="middle"/>
-<pin name="92" x="0" y="-43.18" length="middle"/>
-<pin name="93" x="0" y="-45.72" length="middle"/>
-<pin name="94" x="0" y="-48.26" length="middle"/>
-<pin name="95" x="0" y="-50.8" length="middle"/>
-<pin name="96" x="0" y="-53.34" length="middle"/>
-<pin name="97" x="0" y="-55.88" length="middle"/>
-<pin name="98" x="0" y="-58.42" length="middle"/>
-<pin name="99" x="0" y="-60.96" length="middle"/>
-<pin name="100" x="0" y="-63.5" length="middle"/>
-<pin name="101" x="30.48" y="60.96" length="middle"/>
-<pin name="102" x="30.48" y="58.42" length="middle"/>
-<pin name="103" x="30.48" y="55.88" length="middle"/>
-<pin name="104" x="30.48" y="53.34" length="middle"/>
-<pin name="105" x="30.48" y="50.8" length="middle"/>
-<pin name="106" x="30.48" y="48.26" length="middle"/>
-<pin name="107" x="30.48" y="45.72" length="middle"/>
-<pin name="108" x="30.48" y="43.18" length="middle"/>
-<pin name="109" x="30.48" y="40.64" length="middle"/>
-<pin name="110" x="30.48" y="38.1" length="middle"/>
-<pin name="111" x="30.48" y="35.56" length="middle"/>
-<pin name="112" x="30.48" y="33.02" length="middle"/>
-<pin name="113" x="30.48" y="30.48" length="middle"/>
-<pin name="114" x="30.48" y="27.94" length="middle"/>
-<pin name="115" x="30.48" y="25.4" length="middle"/>
-<pin name="116" x="30.48" y="22.86" length="middle"/>
-<pin name="117" x="30.48" y="20.32" length="middle"/>
-<pin name="118" x="30.48" y="17.78" length="middle"/>
-<pin name="119" x="30.48" y="15.24" length="middle"/>
-<pin name="120" x="30.48" y="12.7" length="middle"/>
-<pin name="121" x="30.48" y="10.16" length="middle"/>
-<pin name="122" x="30.48" y="7.62" length="middle"/>
-<pin name="123" x="30.48" y="5.08" length="middle"/>
-<pin name="124" x="30.48" y="2.54" length="middle"/>
-<pin name="125" x="30.48" y="0" length="middle"/>
-<pin name="126" x="30.48" y="-2.54" length="middle"/>
-<pin name="127" x="30.48" y="-5.08" length="middle"/>
-<pin name="128" x="30.48" y="-7.62" length="middle"/>
-<pin name="129" x="30.48" y="-10.16" length="middle"/>
-<pin name="130" x="30.48" y="-12.7" length="middle"/>
-<pin name="131" x="30.48" y="-15.24" length="middle"/>
-<pin name="132" x="30.48" y="-17.78" length="middle"/>
-<pin name="133" x="30.48" y="-20.32" length="middle"/>
-<pin name="134" x="30.48" y="-22.86" length="middle"/>
-<pin name="135" x="30.48" y="-25.4" length="middle"/>
-<pin name="136" x="30.48" y="-27.94" length="middle"/>
-<pin name="137" x="30.48" y="-30.48" length="middle"/>
-<pin name="138" x="30.48" y="-33.02" length="middle"/>
-<pin name="139" x="30.48" y="-35.56" length="middle"/>
-<pin name="140" x="30.48" y="-38.1" length="middle"/>
-<pin name="141" x="30.48" y="-40.64" length="middle"/>
-<pin name="142" x="30.48" y="-43.18" length="middle"/>
-<pin name="143" x="30.48" y="-45.72" length="middle"/>
-<pin name="144" x="30.48" y="-48.26" length="middle"/>
-<pin name="145" x="30.48" y="-50.8" length="middle"/>
-<pin name="146" x="30.48" y="-53.34" length="middle"/>
-<pin name="147" x="30.48" y="-55.88" length="middle"/>
-<pin name="148" x="30.48" y="-58.42" length="middle"/>
-<pin name="149" x="30.48" y="-60.96" length="middle"/>
-<pin name="150" x="30.48" y="-63.5" length="middle"/>
-<pin name="151" x="60.96" y="60.96" length="middle"/>
-<pin name="152" x="60.96" y="58.42" length="middle"/>
-<pin name="153" x="60.96" y="55.88" length="middle"/>
-<pin name="154" x="60.96" y="53.34" length="middle"/>
-<pin name="155" x="60.96" y="50.8" length="middle"/>
-<pin name="156" x="60.96" y="48.26" length="middle"/>
-<pin name="157" x="60.96" y="45.72" length="middle"/>
-<pin name="158" x="60.96" y="43.18" length="middle"/>
-<pin name="159" x="60.96" y="40.64" length="middle"/>
-<pin name="160" x="60.96" y="38.1" length="middle"/>
-<pin name="161" x="60.96" y="35.56" length="middle"/>
-<pin name="162" x="60.96" y="33.02" length="middle"/>
-<pin name="163" x="60.96" y="30.48" length="middle"/>
-<pin name="164" x="60.96" y="27.94" length="middle"/>
-<pin name="165" x="60.96" y="25.4" length="middle"/>
-<pin name="166" x="60.96" y="22.86" length="middle"/>
-<pin name="167" x="60.96" y="20.32" length="middle"/>
-<pin name="168" x="60.96" y="17.78" length="middle"/>
-<pin name="169" x="60.96" y="15.24" length="middle"/>
-<pin name="170" x="60.96" y="12.7" length="middle"/>
-<pin name="171" x="60.96" y="10.16" length="middle"/>
-<pin name="172" x="60.96" y="7.62" length="middle"/>
-<pin name="173" x="60.96" y="5.08" length="middle"/>
-<pin name="174" x="60.96" y="2.54" length="middle"/>
-<pin name="175" x="60.96" y="0" length="middle"/>
-<pin name="176" x="60.96" y="-2.54" length="middle"/>
-<pin name="177" x="60.96" y="-5.08" length="middle"/>
-<pin name="178" x="60.96" y="-7.62" length="middle"/>
-<pin name="179" x="60.96" y="-10.16" length="middle"/>
-<pin name="180" x="60.96" y="-12.7" length="middle"/>
-<pin name="181" x="60.96" y="-15.24" length="middle"/>
-<pin name="182" x="60.96" y="-17.78" length="middle"/>
-<pin name="183" x="60.96" y="-20.32" length="middle"/>
-<pin name="184" x="60.96" y="-22.86" length="middle"/>
-<pin name="185" x="60.96" y="-25.4" length="middle"/>
-<pin name="186" x="60.96" y="-27.94" length="middle"/>
-<pin name="187" x="60.96" y="-30.48" length="middle"/>
-<pin name="188" x="60.96" y="-33.02" length="middle"/>
-<pin name="189" x="60.96" y="-35.56" length="middle"/>
-<pin name="190" x="60.96" y="-38.1" length="middle"/>
-<pin name="191" x="60.96" y="-40.64" length="middle"/>
-<pin name="192" x="60.96" y="-43.18" length="middle"/>
-<pin name="193" x="60.96" y="-45.72" length="middle"/>
-<pin name="194" x="60.96" y="-48.26" length="middle"/>
-<pin name="195" x="60.96" y="-50.8" length="middle"/>
-<pin name="196" x="60.96" y="-53.34" length="middle"/>
-<pin name="197" x="60.96" y="-55.88" length="middle"/>
-<pin name="198" x="60.96" y="-58.42" length="middle"/>
-<pin name="199" x="60.96" y="-60.96" length="middle"/>
-<pin name="200" x="60.96" y="-63.5" length="middle"/>
-<text x="12.7" y="63.5" size="1.27" layer="95">&gt;NAME</text>
-<text x="12.7" y="-63.5" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="51" x="-12.7" y="60.96" length="middle"/>
+<pin name="52" x="-12.7" y="58.42" length="middle"/>
+<pin name="53" x="-12.7" y="55.88" length="middle"/>
+<pin name="54" x="-12.7" y="53.34" length="middle"/>
+<pin name="55" x="-12.7" y="50.8" length="middle"/>
+<pin name="56" x="-12.7" y="48.26" length="middle"/>
+<pin name="57" x="-12.7" y="45.72" length="middle"/>
+<pin name="58" x="-12.7" y="43.18" length="middle"/>
+<pin name="59" x="-12.7" y="40.64" length="middle"/>
+<pin name="60" x="-12.7" y="38.1" length="middle"/>
+<pin name="61" x="-12.7" y="35.56" length="middle"/>
+<pin name="62" x="-12.7" y="33.02" length="middle"/>
+<pin name="63" x="-12.7" y="30.48" length="middle"/>
+<pin name="64" x="-12.7" y="27.94" length="middle"/>
+<pin name="65" x="-12.7" y="25.4" length="middle"/>
+<pin name="66" x="-12.7" y="22.86" length="middle"/>
+<pin name="67" x="-12.7" y="20.32" length="middle"/>
+<pin name="68" x="-12.7" y="17.78" length="middle"/>
+<pin name="69" x="-12.7" y="15.24" length="middle"/>
+<pin name="70" x="-12.7" y="12.7" length="middle"/>
+<pin name="71" x="-12.7" y="10.16" length="middle"/>
+<pin name="72" x="-12.7" y="7.62" length="middle"/>
+<pin name="73" x="-12.7" y="5.08" length="middle"/>
+<pin name="74" x="-12.7" y="2.54" length="middle"/>
+<pin name="75" x="-12.7" y="0" length="middle"/>
+<pin name="76" x="-12.7" y="-2.54" length="middle"/>
+<pin name="77" x="-12.7" y="-5.08" length="middle"/>
+<pin name="78" x="-12.7" y="-7.62" length="middle"/>
+<pin name="79" x="-12.7" y="-10.16" length="middle"/>
+<pin name="80" x="-12.7" y="-12.7" length="middle"/>
+<pin name="81" x="-12.7" y="-15.24" length="middle"/>
+<pin name="82" x="-12.7" y="-17.78" length="middle"/>
+<pin name="83" x="-12.7" y="-20.32" length="middle"/>
+<pin name="84" x="-12.7" y="-22.86" length="middle"/>
+<pin name="85" x="-12.7" y="-25.4" length="middle"/>
+<pin name="86" x="-12.7" y="-27.94" length="middle"/>
+<pin name="87" x="-12.7" y="-30.48" length="middle"/>
+<pin name="88" x="-12.7" y="-33.02" length="middle"/>
+<pin name="89" x="-12.7" y="-35.56" length="middle"/>
+<pin name="90" x="-12.7" y="-38.1" length="middle"/>
+<pin name="91" x="-12.7" y="-40.64" length="middle"/>
+<pin name="92" x="-12.7" y="-43.18" length="middle"/>
+<pin name="93" x="-12.7" y="-45.72" length="middle"/>
+<pin name="94" x="-12.7" y="-48.26" length="middle"/>
+<pin name="95" x="-12.7" y="-50.8" length="middle"/>
+<pin name="96" x="-12.7" y="-53.34" length="middle"/>
+<pin name="97" x="-12.7" y="-55.88" length="middle"/>
+<pin name="98" x="-12.7" y="-58.42" length="middle"/>
+<pin name="99" x="-12.7" y="-60.96" length="middle"/>
+<pin name="100" x="-12.7" y="-63.5" length="middle"/>
+<pin name="101" x="5.08" y="60.96" length="middle"/>
+<pin name="102" x="5.08" y="58.42" length="middle"/>
+<pin name="103" x="5.08" y="55.88" length="middle"/>
+<pin name="104" x="5.08" y="53.34" length="middle"/>
+<pin name="105" x="5.08" y="50.8" length="middle"/>
+<pin name="106" x="5.08" y="48.26" length="middle"/>
+<pin name="107" x="5.08" y="45.72" length="middle"/>
+<pin name="108" x="5.08" y="43.18" length="middle"/>
+<pin name="109" x="5.08" y="40.64" length="middle"/>
+<pin name="110" x="5.08" y="38.1" length="middle"/>
+<pin name="111" x="5.08" y="35.56" length="middle"/>
+<pin name="112" x="5.08" y="33.02" length="middle"/>
+<pin name="113" x="5.08" y="30.48" length="middle"/>
+<pin name="114" x="5.08" y="27.94" length="middle"/>
+<pin name="115" x="5.08" y="25.4" length="middle"/>
+<pin name="116" x="5.08" y="22.86" length="middle"/>
+<pin name="117" x="5.08" y="20.32" length="middle"/>
+<pin name="118" x="5.08" y="17.78" length="middle"/>
+<pin name="119" x="5.08" y="15.24" length="middle"/>
+<pin name="120" x="5.08" y="12.7" length="middle"/>
+<pin name="121" x="5.08" y="10.16" length="middle"/>
+<pin name="122" x="5.08" y="7.62" length="middle"/>
+<pin name="123" x="5.08" y="5.08" length="middle"/>
+<pin name="124" x="5.08" y="2.54" length="middle"/>
+<pin name="125" x="5.08" y="0" length="middle"/>
+<pin name="126" x="5.08" y="-2.54" length="middle"/>
+<pin name="127" x="5.08" y="-5.08" length="middle"/>
+<pin name="128" x="5.08" y="-7.62" length="middle"/>
+<pin name="129" x="5.08" y="-10.16" length="middle"/>
+<pin name="130" x="5.08" y="-12.7" length="middle"/>
+<pin name="131" x="5.08" y="-15.24" length="middle"/>
+<pin name="132" x="5.08" y="-17.78" length="middle"/>
+<pin name="133" x="5.08" y="-20.32" length="middle"/>
+<pin name="134" x="5.08" y="-22.86" length="middle"/>
+<pin name="135" x="5.08" y="-25.4" length="middle"/>
+<pin name="136" x="5.08" y="-27.94" length="middle"/>
+<pin name="137" x="5.08" y="-30.48" length="middle"/>
+<pin name="138" x="5.08" y="-33.02" length="middle"/>
+<pin name="139" x="5.08" y="-35.56" length="middle"/>
+<pin name="140" x="5.08" y="-38.1" length="middle"/>
+<pin name="141" x="5.08" y="-40.64" length="middle"/>
+<pin name="142" x="5.08" y="-43.18" length="middle"/>
+<pin name="143" x="5.08" y="-45.72" length="middle"/>
+<pin name="144" x="5.08" y="-48.26" length="middle"/>
+<pin name="145" x="5.08" y="-50.8" length="middle"/>
+<pin name="146" x="5.08" y="-53.34" length="middle"/>
+<pin name="147" x="5.08" y="-55.88" length="middle"/>
+<pin name="148" x="5.08" y="-58.42" length="middle"/>
+<pin name="149" x="5.08" y="-60.96" length="middle"/>
+<pin name="150" x="5.08" y="-63.5" length="middle"/>
+<pin name="151" x="22.86" y="60.96" length="middle"/>
+<pin name="152" x="22.86" y="58.42" length="middle"/>
+<pin name="153" x="22.86" y="55.88" length="middle"/>
+<pin name="154" x="22.86" y="53.34" length="middle"/>
+<pin name="155" x="22.86" y="50.8" length="middle"/>
+<pin name="156" x="22.86" y="48.26" length="middle"/>
+<pin name="157" x="22.86" y="45.72" length="middle"/>
+<pin name="158" x="22.86" y="43.18" length="middle"/>
+<pin name="159" x="22.86" y="40.64" length="middle"/>
+<pin name="160" x="22.86" y="38.1" length="middle"/>
+<pin name="161" x="22.86" y="35.56" length="middle"/>
+<pin name="162" x="22.86" y="33.02" length="middle"/>
+<pin name="163" x="22.86" y="30.48" length="middle"/>
+<pin name="164" x="22.86" y="27.94" length="middle"/>
+<pin name="165" x="22.86" y="25.4" length="middle"/>
+<pin name="166" x="22.86" y="22.86" length="middle"/>
+<pin name="167" x="22.86" y="20.32" length="middle"/>
+<pin name="168" x="22.86" y="17.78" length="middle"/>
+<pin name="169" x="22.86" y="15.24" length="middle"/>
+<pin name="170" x="22.86" y="12.7" length="middle"/>
+<pin name="171" x="22.86" y="10.16" length="middle"/>
+<pin name="172" x="22.86" y="7.62" length="middle"/>
+<pin name="173" x="22.86" y="5.08" length="middle"/>
+<pin name="174" x="22.86" y="2.54" length="middle"/>
+<pin name="175" x="22.86" y="0" length="middle"/>
+<pin name="176" x="22.86" y="-2.54" length="middle"/>
+<pin name="177" x="22.86" y="-5.08" length="middle"/>
+<pin name="178" x="22.86" y="-7.62" length="middle"/>
+<pin name="179" x="22.86" y="-10.16" length="middle"/>
+<pin name="180" x="22.86" y="-12.7" length="middle"/>
+<pin name="181" x="22.86" y="-15.24" length="middle"/>
+<pin name="182" x="22.86" y="-17.78" length="middle"/>
+<pin name="183" x="22.86" y="-20.32" length="middle"/>
+<pin name="184" x="22.86" y="-22.86" length="middle"/>
+<pin name="185" x="22.86" y="-25.4" length="middle"/>
+<pin name="186" x="22.86" y="-27.94" length="middle"/>
+<pin name="187" x="22.86" y="-30.48" length="middle"/>
+<pin name="188" x="22.86" y="-33.02" length="middle"/>
+<pin name="189" x="22.86" y="-35.56" length="middle"/>
+<pin name="190" x="22.86" y="-38.1" length="middle"/>
+<pin name="191" x="22.86" y="-40.64" length="middle"/>
+<pin name="192" x="22.86" y="-43.18" length="middle"/>
+<pin name="193" x="22.86" y="-45.72" length="middle"/>
+<pin name="194" x="22.86" y="-48.26" length="middle"/>
+<pin name="195" x="22.86" y="-50.8" length="middle"/>
+<pin name="196" x="22.86" y="-53.34" length="middle"/>
+<pin name="197" x="22.86" y="-55.88" length="middle"/>
+<pin name="198" x="22.86" y="-58.42" length="middle"/>
+<pin name="199" x="22.86" y="-60.96" length="middle"/>
+<pin name="200" x="22.86" y="-63.5" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -34462,223 +34460,6 @@ AND LOW-EMI SWITCHING REGULATOR&lt;/b&gt;&lt;p&gt;
 <technology name="">
 <attribute name="DIGIKEY" value="IRLML5203TRPBFCT-ND" constant="no"/>
 <attribute name="PRICE_PER_UNIT" value="0.41" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DDR2" prefix="X">
-<gates>
-<gate name="G$1" symbol="DDR2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-3.3V" package="6-1376408-1">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="100" pad="100"/>
-<connect gate="G$1" pin="101" pad="101"/>
-<connect gate="G$1" pin="102" pad="102"/>
-<connect gate="G$1" pin="103" pad="103"/>
-<connect gate="G$1" pin="104" pad="104"/>
-<connect gate="G$1" pin="105" pad="105"/>
-<connect gate="G$1" pin="106" pad="106"/>
-<connect gate="G$1" pin="107" pad="107"/>
-<connect gate="G$1" pin="108" pad="108"/>
-<connect gate="G$1" pin="109" pad="109"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="110" pad="110"/>
-<connect gate="G$1" pin="111" pad="111"/>
-<connect gate="G$1" pin="112" pad="112"/>
-<connect gate="G$1" pin="113" pad="113"/>
-<connect gate="G$1" pin="114" pad="114"/>
-<connect gate="G$1" pin="115" pad="115"/>
-<connect gate="G$1" pin="116" pad="116"/>
-<connect gate="G$1" pin="117" pad="117"/>
-<connect gate="G$1" pin="118" pad="118"/>
-<connect gate="G$1" pin="119" pad="119"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="120" pad="120"/>
-<connect gate="G$1" pin="121" pad="121"/>
-<connect gate="G$1" pin="122" pad="122"/>
-<connect gate="G$1" pin="123" pad="123"/>
-<connect gate="G$1" pin="124" pad="124"/>
-<connect gate="G$1" pin="125" pad="125"/>
-<connect gate="G$1" pin="126" pad="126"/>
-<connect gate="G$1" pin="127" pad="127"/>
-<connect gate="G$1" pin="128" pad="128"/>
-<connect gate="G$1" pin="129" pad="129"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="130" pad="130"/>
-<connect gate="G$1" pin="131" pad="131"/>
-<connect gate="G$1" pin="132" pad="132"/>
-<connect gate="G$1" pin="133" pad="133"/>
-<connect gate="G$1" pin="134" pad="134"/>
-<connect gate="G$1" pin="135" pad="135"/>
-<connect gate="G$1" pin="136" pad="136"/>
-<connect gate="G$1" pin="137" pad="137"/>
-<connect gate="G$1" pin="138" pad="138"/>
-<connect gate="G$1" pin="139" pad="139"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="140" pad="140"/>
-<connect gate="G$1" pin="141" pad="141"/>
-<connect gate="G$1" pin="142" pad="142"/>
-<connect gate="G$1" pin="143" pad="143"/>
-<connect gate="G$1" pin="144" pad="144"/>
-<connect gate="G$1" pin="145" pad="145"/>
-<connect gate="G$1" pin="146" pad="146"/>
-<connect gate="G$1" pin="147" pad="147"/>
-<connect gate="G$1" pin="148" pad="148"/>
-<connect gate="G$1" pin="149" pad="149"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="150" pad="150"/>
-<connect gate="G$1" pin="151" pad="151"/>
-<connect gate="G$1" pin="152" pad="152"/>
-<connect gate="G$1" pin="153" pad="153"/>
-<connect gate="G$1" pin="154" pad="154"/>
-<connect gate="G$1" pin="155" pad="155"/>
-<connect gate="G$1" pin="156" pad="156"/>
-<connect gate="G$1" pin="157" pad="157"/>
-<connect gate="G$1" pin="158" pad="158"/>
-<connect gate="G$1" pin="159" pad="159"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="160" pad="160"/>
-<connect gate="G$1" pin="161" pad="161"/>
-<connect gate="G$1" pin="162" pad="162"/>
-<connect gate="G$1" pin="163" pad="163"/>
-<connect gate="G$1" pin="164" pad="164"/>
-<connect gate="G$1" pin="165" pad="165"/>
-<connect gate="G$1" pin="166" pad="166"/>
-<connect gate="G$1" pin="167" pad="167"/>
-<connect gate="G$1" pin="168" pad="168"/>
-<connect gate="G$1" pin="169" pad="169"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="170" pad="170"/>
-<connect gate="G$1" pin="171" pad="171"/>
-<connect gate="G$1" pin="172" pad="172"/>
-<connect gate="G$1" pin="173" pad="173"/>
-<connect gate="G$1" pin="174" pad="174"/>
-<connect gate="G$1" pin="175" pad="175"/>
-<connect gate="G$1" pin="176" pad="176"/>
-<connect gate="G$1" pin="177" pad="177"/>
-<connect gate="G$1" pin="178" pad="178"/>
-<connect gate="G$1" pin="179" pad="179"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="180" pad="180"/>
-<connect gate="G$1" pin="181" pad="181"/>
-<connect gate="G$1" pin="182" pad="182"/>
-<connect gate="G$1" pin="183" pad="183"/>
-<connect gate="G$1" pin="184" pad="184"/>
-<connect gate="G$1" pin="185" pad="185"/>
-<connect gate="G$1" pin="186" pad="186"/>
-<connect gate="G$1" pin="187" pad="187"/>
-<connect gate="G$1" pin="188" pad="188"/>
-<connect gate="G$1" pin="189" pad="189"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="190" pad="190"/>
-<connect gate="G$1" pin="191" pad="191"/>
-<connect gate="G$1" pin="192" pad="192"/>
-<connect gate="G$1" pin="193" pad="193"/>
-<connect gate="G$1" pin="194" pad="194"/>
-<connect gate="G$1" pin="195" pad="195"/>
-<connect gate="G$1" pin="196" pad="196"/>
-<connect gate="G$1" pin="197" pad="197"/>
-<connect gate="G$1" pin="198" pad="198"/>
-<connect gate="G$1" pin="199" pad="199"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="200" pad="200"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="27" pad="27"/>
-<connect gate="G$1" pin="28" pad="28"/>
-<connect gate="G$1" pin="29" pad="29"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="30" pad="30"/>
-<connect gate="G$1" pin="31" pad="31"/>
-<connect gate="G$1" pin="32" pad="32"/>
-<connect gate="G$1" pin="33" pad="33"/>
-<connect gate="G$1" pin="34" pad="34"/>
-<connect gate="G$1" pin="35" pad="35"/>
-<connect gate="G$1" pin="36" pad="36"/>
-<connect gate="G$1" pin="37" pad="37"/>
-<connect gate="G$1" pin="38" pad="38"/>
-<connect gate="G$1" pin="39" pad="39"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="40" pad="40"/>
-<connect gate="G$1" pin="41" pad="41"/>
-<connect gate="G$1" pin="42" pad="42"/>
-<connect gate="G$1" pin="43" pad="43"/>
-<connect gate="G$1" pin="44" pad="44"/>
-<connect gate="G$1" pin="45" pad="45"/>
-<connect gate="G$1" pin="46" pad="46"/>
-<connect gate="G$1" pin="47" pad="47"/>
-<connect gate="G$1" pin="48" pad="48"/>
-<connect gate="G$1" pin="49" pad="49"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="50" pad="50"/>
-<connect gate="G$1" pin="51" pad="51"/>
-<connect gate="G$1" pin="52" pad="52"/>
-<connect gate="G$1" pin="53" pad="53"/>
-<connect gate="G$1" pin="54" pad="54"/>
-<connect gate="G$1" pin="55" pad="55"/>
-<connect gate="G$1" pin="56" pad="56"/>
-<connect gate="G$1" pin="57" pad="57"/>
-<connect gate="G$1" pin="58" pad="58"/>
-<connect gate="G$1" pin="59" pad="59"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="60" pad="60"/>
-<connect gate="G$1" pin="61" pad="61"/>
-<connect gate="G$1" pin="62" pad="62"/>
-<connect gate="G$1" pin="63" pad="63"/>
-<connect gate="G$1" pin="64" pad="64"/>
-<connect gate="G$1" pin="65" pad="65"/>
-<connect gate="G$1" pin="66" pad="66"/>
-<connect gate="G$1" pin="67" pad="67"/>
-<connect gate="G$1" pin="68" pad="68"/>
-<connect gate="G$1" pin="69" pad="69"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="70" pad="70"/>
-<connect gate="G$1" pin="71" pad="71"/>
-<connect gate="G$1" pin="72" pad="72"/>
-<connect gate="G$1" pin="73" pad="73"/>
-<connect gate="G$1" pin="74" pad="74"/>
-<connect gate="G$1" pin="75" pad="75"/>
-<connect gate="G$1" pin="76" pad="76"/>
-<connect gate="G$1" pin="77" pad="77"/>
-<connect gate="G$1" pin="78" pad="78"/>
-<connect gate="G$1" pin="79" pad="79"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="80" pad="80"/>
-<connect gate="G$1" pin="81" pad="81"/>
-<connect gate="G$1" pin="82" pad="82"/>
-<connect gate="G$1" pin="83" pad="83"/>
-<connect gate="G$1" pin="84" pad="84"/>
-<connect gate="G$1" pin="85" pad="85"/>
-<connect gate="G$1" pin="86" pad="86"/>
-<connect gate="G$1" pin="87" pad="87"/>
-<connect gate="G$1" pin="88" pad="88"/>
-<connect gate="G$1" pin="89" pad="89"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="90" pad="90"/>
-<connect gate="G$1" pin="91" pad="91"/>
-<connect gate="G$1" pin="92" pad="92"/>
-<connect gate="G$1" pin="93" pad="93"/>
-<connect gate="G$1" pin="94" pad="94"/>
-<connect gate="G$1" pin="95" pad="95"/>
-<connect gate="G$1" pin="96" pad="96"/>
-<connect gate="G$1" pin="97" pad="97"/>
-<connect gate="G$1" pin="98" pad="98"/>
-<connect gate="G$1" pin="99" pad="99"/>
-</connects>
-<technologies>
-<technology name="TORADEX-COLIBIRI-IMX6">
-<attribute name="LINK" value="https://www.toradex.com/computer-on-modules/colibri-arm-family/freescale-imx6" constant="no"/>
-<attribute name="PRICE_PER_UNIT" value="70" constant="no"/>
 </technology>
 </technologies>
 </device>

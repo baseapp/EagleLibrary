@@ -22663,8 +22663,6 @@
 <pin name="198" x="60.96" y="-58.42" length="middle"/>
 <pin name="199" x="60.96" y="-60.96" length="middle"/>
 <pin name="200" x="60.96" y="-63.5" length="middle"/>
-<text x="12.7" y="63.5" size="1.27" layer="95">&gt;NAME</text>
-<text x="12.7" y="-63.5" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
