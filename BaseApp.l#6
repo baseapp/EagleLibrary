@@ -14492,6 +14492,10 @@
 <pad name="11" x="3.81" y="-0.635" drill="0.5"/>
 <pad name="12" x="3.81" y="0.635" drill="0.5"/>
 </package>
+<package name="ROCKER-DUMMY">
+</package>
+<package name="SWITCH-DUMMY">
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -22828,6 +22832,14 @@
 <pin name="10" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="11" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="12" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+</symbol>
+<symbol name="SWITCH-DUMMY-PANEL_MOUNT">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -34970,6 +34982,21 @@ AND LOW-EMI SWITCHING REGULATOR&lt;/b&gt;&lt;p&gt;
 <technology name="NHD-0220FZ-FSW-GBW-P-33V3">
 <attribute name="DIGIKEY" value="NHD-0220FZ-FSW-GBW-P-33V3-ND" constant="no"/>
 <attribute name="PRICE_PER_UNIT" value="10.9" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SWITCH">
+<gates>
+<gate name="G$1" symbol="SWITCH-DUMMY-PANEL_MOUNT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-ROCKER" package="SWITCH-DUMMY">
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CW198-ND" constant="no"/>
+<attribute name="PRICE_PER_UNIT" value="0.6" constant="no"/>
 </technology>
 </technologies>
 </device>
