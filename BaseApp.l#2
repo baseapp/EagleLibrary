@@ -23083,6 +23083,18 @@ Mount :-Surface mount</description>
 </technology>
 </technologies>
 </device>
+<device name="-33K_1/8W" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MCT0603-33.0K-CFCT-ND" constant="no"/>
+<attribute name="PRICE_PER_UNIT" value="0.08" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CAPACITOR" prefix="C" uservalue="yes">
