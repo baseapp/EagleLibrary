@@ -1935,33 +1935,33 @@
 <hole x="77.46" y="2.54" drill="2.8"/>
 </package>
 <package name="AUDIO-JACK">
-<wire x1="7.5" y1="6" x2="7.5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="6" x2="-3.5" y2="4.5" width="0.2032" layer="51"/>
-<wire x1="-3.5" y1="-4.5" x2="-3.5" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-4.5" y1="4.5" x2="-4.5" y2="3" width="0.2032" layer="51"/>
-<wire x1="-4.5" y1="-3" x2="-4.5" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-4.5" y1="-4.5" x2="-3.5" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-4.5" y1="4.5" x2="-3.5" y2="4.5" width="0.2032" layer="51"/>
-<wire x1="-6.5" y1="3" x2="-6.5" y2="-3" width="0.2032" layer="51"/>
-<wire x1="-6.5" y1="-3" x2="-4.5" y2="-3" width="0.2032" layer="51"/>
-<wire x1="-6.5" y1="3" x2="-4.5" y2="3" width="0.2032" layer="51"/>
-<wire x1="-3.5" y1="6" x2="3.5" y2="6" width="0.2032" layer="21"/>
-<wire x1="7.5" y1="6" x2="6.5" y2="6" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="6" x2="-3.5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="-6" x2="3.5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="7.5" y1="-6" x2="6.5" y2="-6" width="0.2032" layer="21"/>
-<pad name="SLEEVE" x="0" y="0" drill="1.3" diameter="2.1844"/>
-<pad name="RSH" x="5" y="2.5" drill="1.3" diameter="2.1844"/>
-<pad name="RING" x="5" y="5" drill="1.3" diameter="2.1844"/>
-<pad name="TSH" x="5" y="-2.5" drill="1.3" diameter="2.1844"/>
-<pad name="TIP" x="5" y="-5" drill="1.3" diameter="2.1844"/>
-<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
-<hole x="0" y="5" drill="1.2"/>
-<hole x="-2.5" y="5" drill="1.2"/>
-<hole x="-2.5" y="-5" drill="1.2"/>
-<hole x="0" y="-5" drill="1.2"/>
-<hole x="5" y="0" drill="1.2"/>
+<wire x1="2.5" y1="6" x2="2.5" y2="-6" width="0.2032" layer="21"/>
+<wire x1="-8.5" y1="6" x2="-8.5" y2="4.5" width="0.2032" layer="51"/>
+<wire x1="-8.5" y1="-4.5" x2="-8.5" y2="-6" width="0.2032" layer="51"/>
+<wire x1="-9.5" y1="4.5" x2="-9.5" y2="3" width="0.2032" layer="51"/>
+<wire x1="-9.5" y1="-3" x2="-9.5" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-9.5" y1="-4.5" x2="-8.5" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-9.5" y1="4.5" x2="-8.5" y2="4.5" width="0.2032" layer="51"/>
+<wire x1="-11.5" y1="3" x2="-11.5" y2="-3" width="0.2032" layer="51"/>
+<wire x1="-11.5" y1="-3" x2="-9.5" y2="-3" width="0.2032" layer="51"/>
+<wire x1="-11.5" y1="3" x2="-9.5" y2="3" width="0.2032" layer="51"/>
+<wire x1="-8.5" y1="6" x2="-1.5" y2="6" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="6" x2="1.5" y2="6" width="0.2032" layer="21"/>
+<wire x1="-8.5" y1="6" x2="-8.5" y2="-6" width="0.2032" layer="21"/>
+<wire x1="-8.5" y1="-6" x2="-1.5" y2="-6" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-6" x2="1.5" y2="-6" width="0.2032" layer="21"/>
+<pad name="SLEEVE" x="-5" y="0" drill="1.3" diameter="2.1844"/>
+<pad name="RSH" x="0" y="2.5" drill="1.3" diameter="2.1844"/>
+<pad name="RING" x="0" y="5" drill="1.3" diameter="2.1844"/>
+<pad name="TSH" x="0" y="-2.5" drill="1.3" diameter="2.1844"/>
+<pad name="TIP" x="0" y="-5" drill="1.3" diameter="2.1844"/>
+<text x="-6.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-6.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
+<hole x="-5" y="5" drill="1.2"/>
+<hole x="-7.5" y="5" drill="1.2"/>
+<hole x="-7.5" y="-5" drill="1.2"/>
+<hole x="-5" y="-5" drill="1.2"/>
+<hole x="0" y="0" drill="1.2"/>
 </package>
 <package name="SCHOTTKY_SMA">
 <wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
@@ -7697,6 +7697,10 @@
 <wire x1="-3.1" y1="4.2" x2="8.18" y2="4.2" width="0.127" layer="21"/>
 <wire x1="-3.1" y1="-4.2" x2="8.18" y2="-4.2" width="0.127" layer="21"/>
 <text x="-1.27" y="-5.788" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-3.1" y1="3.4" x2="8.18" y2="3.4" width="0.127" layer="51"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.905" y1="1.905" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="3.175" y2="1.905" width="0.127" layer="21"/>
 </package>
 <package name="3-AA-BATTERY-HOLDER">
 <pad name="+@1" x="-27.6" y="16" drill="1.2"/>
@@ -23083,6 +23087,18 @@ Mount :-Surface mount</description>
 </technology>
 </technologies>
 </device>
+<device name="-33K_1/8W" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MCT0603-33.0K-CFCT-ND" constant="no"/>
+<attribute name="PRICE_PER_UNIT" value="0.08" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CAPACITOR" prefix="C" uservalue="yes">
@@ -25819,7 +25835,10 @@ Digikey No:- __296-8278-1-ND__</description>
 <connect gate="G$1" pin="TSH" pad="TSH"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="CP1-3525N-ND" constant="no"/>
+<attribute name="PRICE_PER_UNIT" value="1" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

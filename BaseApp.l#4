@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -7697,6 +7697,10 @@
 <wire x1="-3.1" y1="4.2" x2="8.18" y2="4.2" width="0.127" layer="21"/>
 <wire x1="-3.1" y1="-4.2" x2="8.18" y2="-4.2" width="0.127" layer="21"/>
 <text x="-1.27" y="-5.788" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-3.1" y1="3.4" x2="8.18" y2="3.4" width="0.127" layer="51"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.905" y1="1.905" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="3.175" y2="1.905" width="0.127" layer="21"/>
 </package>
 <package name="3-AA-BATTERY-HOLDER">
 <pad name="+@1" x="-27.6" y="16" drill="1.2"/>
@@ -23083,6 +23087,18 @@ Mount :-Surface mount</description>
 </technology>
 </technologies>
 </device>
+<device name="-33K_1/8W" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MCT0603-33.0K-CFCT-ND" constant="no"/>
+<attribute name="PRICE_PER_UNIT" value="0.08" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CAPACITOR" prefix="C" uservalue="yes">
@@ -26155,6 +26171,24 @@ Digikey No:- __296-8278-1-ND__</description>
 <technology name="">
 <attribute name="DIGIKEY" value="CRA6S822CT-ND"/>
 <attribute name="PRICE_PER_UNIT" value="0.1"/>
+</technology>
+</technologies>
+</device>
+<device name="-68K_1/16W" package="RESISTOR-ARRAY-4-1206">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="8"/>
+<connect gate="B" pin="1" pad="2"/>
+<connect gate="B" pin="2" pad="7"/>
+<connect gate="C" pin="1" pad="3"/>
+<connect gate="C" pin="2" pad="6"/>
+<connect gate="D" pin="1" pad="4"/>
+<connect gate="D" pin="2" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CAT16-683J4LFCT-ND" constant="no"/>
+<attribute name="PRICE_PER_UNIT" value="0.1" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -12986,6 +12986,8 @@
 <wire x1="-1.5" y1="1.9" x2="1.5" y2="1.9" width="0.127" layer="21"/>
 <wire x1="1.5" y1="1.9" x2="1.5" y2="-1.9" width="0.127" layer="21"/>
 <wire x1="1.2" y1="-1" x2="-1.2" y2="-1" width="0.127" layer="21"/>
+<text x="2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="E5-12.5">
 <wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
@@ -22597,7 +22599,7 @@
 <pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
-<symbol name="DDR2">
+<symbol name="DDR">
 <pin name="1" x="-30.48" y="60.96" length="middle"/>
 <pin name="2" x="-30.48" y="58.42" length="middle"/>
 <pin name="3" x="-30.48" y="55.88" length="middle"/>
@@ -26153,6 +26155,24 @@ Digikey No:- __296-8278-1-ND__</description>
 <technology name="">
 <attribute name="DIGIKEY" value="CRA6S822CT-ND"/>
 <attribute name="PRICE_PER_UNIT" value="0.1"/>
+</technology>
+</technologies>
+</device>
+<device name="-68K_1/16W" package="RESISTOR-ARRAY-4-1206">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="8"/>
+<connect gate="B" pin="1" pad="2"/>
+<connect gate="B" pin="2" pad="7"/>
+<connect gate="C" pin="1" pad="3"/>
+<connect gate="C" pin="2" pad="6"/>
+<connect gate="D" pin="1" pad="4"/>
+<connect gate="D" pin="2" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CAT16-683J4LFCT-ND" constant="no"/>
+<attribute name="PRICE_PER_UNIT" value="0.1" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -34697,9 +34717,9 @@ AND LOW-EMI SWITCHING REGULATOR&lt;/b&gt;&lt;p&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="DDR2" prefix="X">
+<deviceset name="DDR" prefix="X">
 <gates>
-<gate name="G$1" symbol="DDR2" x="0" y="0"/>
+<gate name="G$1" symbol="DDR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-3.3V" package="6-1376408-1-COLIBRI">

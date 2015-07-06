@@ -14508,6 +14508,21 @@
 </package>
 <package name="SWITCH-DUMMY">
 </package>
+<package name="C2917">
+<wire x1="-5" y1="2.5" x2="-2" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-5" y1="2.5" x2="-5" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="-5" y1="-2.5" x2="-2" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="2" y1="2.5" x2="4" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="2.5" x2="5" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="5" y1="1.5" x2="5" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="5" y1="-1.5" x2="4" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="-2.5" x2="2" y2="-2.5" width="0.2032" layer="21"/>
+<smd name="C" x="-3.17" y="0" dx="2.55" dy="2.7" layer="1" rot="R180"/>
+<smd name="A" x="3.17" y="0" dx="2.55" dy="2.7" layer="1" rot="R180"/>
+<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-1.27" y="-1.27" size="0.4064" layer="27">&gt;Value</text>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="-2.54" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -25407,6 +25422,18 @@ TSSOP-66</description>
 <technology name="">
 <attribute name="DIGIKEY" value="565-1579-ND" constant="no"/>
 <attribute name="PRICE_PER_UNIT" value="0.63" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-TANTALUM_220UF/16V" package="C2917">
+<connects>
+<connect gate="G$1" pin="+" pad="A"/>
+<connect gate="G$1" pin="-" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="399-10429-1-ND" constant="no"/>
+<attribute name="PRICE_PER_UNIT" value="1.14" constant="no"/>
 </technology>
 </technologies>
 </device>
